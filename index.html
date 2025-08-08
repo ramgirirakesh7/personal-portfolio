@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rakesh Ramgiri — Software Developer</title>
+  <meta name="description" content="Rakesh Ramgiri — Full-stack Software Developer. Java, React, Angular, Spring Boot, Microservices, Docker, Kubernetes, AWS/GCP/Azure, Kafka, CI/CD." />
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Rakesh Ramgiri — Software Developer" />
+  <meta property="og:description" content="Full-stack engineer building robust, scalable applications. Java | React | Angular | Spring Boot | Microservices | Docker | Kubernetes | Kafka | Cloud (AWS/GCP/Azure)" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rakeshramgiri.dev" />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#">Rakesh Ramgiri</a>
+              <nav>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      <button class="mobile-menu-btn" id="mobile-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Hi — I'm <span class="accent">Rakesh</span></h1>
+          <p class="lead">Full-stack engineer building robust, scalable applications. Java | React | Angular | Spring Boot | Microservices | Docker | Kubernetes | Kafka | Cloud (AWS/GCP/Azure)</p>
+          <div class="cta-row">
+            <a class="btn" href="#projects">See projects</a>
+            <button class="btn ghost" onclick="openResumeModal()">Request a resume</button>
+          </div>
+          <ul class="meta">
+            <li><strong>Location:</strong> Vancouver, BC</li>
+            <li><strong>Availability:</strong> Freelance / Contract</li>
+            <li><strong>Experience:</strong> 7+ years</li>
+          </ul>
+        </div>
+        <div class="card profile-card">
+          <div class="avatar">
+            <img src="images/profile-photo.jpg" alt="Rakesh Ramgiri - Senior Full Stack Developer" loading="lazy">
+          </div>
+          <h3>Rakesh Ramgiri</h3>
+          <p>Senior Full Stack Developer with 7+ years of experience delivering cloud-native, event-driven applications. Expert in Java, Spring Boot, React, Angular, and cloud platforms (AWS/GCP/Azure).</p>
+          <div class="skill-pills">
+            <div class="skill-pill">React</div>
+            <div class="skill-pill">Angular</div>
+            <div class="skill-pill">Java</div>
+            <div class="skill-pill">Spring Boot</div>
+            <div class="skill-pill">Kafka</div>
+            <div class="skill-pill">AWS</div>
+            <div class="skill-pill">GCP</div>
+            <div class="skill-pill">Azure</div>
+            <div class="skill-pill">Docker</div>
+            <div class="skill-pill">Kubernetes</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <div class="about-content">
+          <p>I build robust microservice systems and beautiful UX. I design APIs, implement backend services in Java/Spring Boot, and build responsive frontends with React/Angular. I'm experienced with Docker, Kubernetes, Kafka, cloud (AWS/GCP/Azure) and automated CI/CD pipelines (Jenkins / CircleCI / GitHub Actions).</p>
+          <p>My expertise spans the entire software development lifecycle - from designing scalable architectures to deploying production-ready applications with monitoring and observability.</p>
+          <p>I have extensive experience across multiple sectors including <strong>Financial Services</strong>, <strong>Payment Gateways</strong>, <strong>E-commerce</strong>, <strong>Healthcare</strong>, and <strong>Government</strong>, delivering secure, scalable solutions that meet industry-specific compliance and performance requirements.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Professional Experience</h2>
+        <div class="experience-timeline">
+          
+          <div class="experience-item">
+            <div class="experience-header" onclick="toggleExperience(this)">
+              <div class="experience-header-content">
+                <h3>Senior Software Engineer</h3>
+                <div class="experience-company">Ritchie Bros.</div>
+                <div class="experience-period">Feb 2024 - Present · 1 yr 7 mos</div>
+                <div class="experience-location">Burnaby, British Columbia, Canada · Remote</div>
+              </div>
+              <div class="experience-toggle">
+                <span class="toggle-icon">+</span>
+              </div>
+            </div>
+            <div class="experience-content">
+              <p>Contributed to the development of a cloud-native, event-driven Notification Service for delivering real-time email and push notifications at scale. Worked across the full stack using Java, Spring Boot, Kafka, and PostgreSQL on the backend, and Next.js 14, TypeScript, HTML/CSS, and Contentful on the frontend.</p>
+              <ul>
+                <li>Designed and maintained scalable notification service using Firebase Cloud Messaging (FCM) and SendGrid for real-time push and email delivery</li>
+                <li>Built frontend tools using Next.js, TypeScript, HTML, and CSS to enhance observability and internal configuration</li>
+                <li>Developed Kafka consumers/producers with Confluent Schema Registry, ensuring schema evolution and compatibility</li>
+                <li>Migrated legacy data from Oracle WebDB to PostgreSQL, implementing Enums, batching, and data integrity checks</li>
+                <li>Designed secure RESTful APIs using Spring Boot and Java, implementing OAuth 2.0 and JWT-based authentication</li>
+                <li>Supported CI/CD automation with Jenkins and CircleCI, managed secure deployments using Helm and Vault</li>
+                <li>Followed Test-Driven Development (TDD) practices and leveraged Amazon Q to enhance development efficiency</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-header" onclick="toggleExperience(this)">
+              <div class="experience-header-content">
+                <h3>Fullstack Developer</h3>
+                <div class="experience-company">Boeing Vancouver</div>
+                <div class="experience-period">May 2023 - Feb 2024 · 10 mos</div>
+                <div class="experience-location">Richmond, British Columbia, Canada · Hybrid</div>
+              </div>
+              <div class="experience-toggle">
+                <span class="toggle-icon">+</span>
+              </div>
+            </div>
+            <div class="experience-content">
+              <p>Developed entire frontend and backend modules using Python on Django Web and Flask, FAST. Worked on designing, coding, and developing applications in Python using Django MVC.</p>
+              <ul>
+                <li>Developed a centralized notification service handling email notifications across multiple Boeing applications</li>
+                <li>Designed and implemented event-driven architecture using Kafka, enabling real-time asynchronous processing</li>
+                <li>Developed RESTful APIs using Spring Boot and Python FastAPI, integrating various Boeing systems</li>
+                <li>Built microservices-based framework to support efficient message queuing and high-performance delivery</li>
+                <li>Integrated with Boeing's cloud platforms (AWS and OpenShift) for scalable and containerized deployments</li>
+                <li>Implemented CI/CD pipelines using Jenkins and GitHub Actions, automating build, test, and deployment cycles</li>
+                <li>Optimized Kafka event processing, reducing notification delivery time by 50%</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-header" onclick="toggleExperience(this)">
+              <div class="experience-header-content">
+                <h3>Full-stack Developer</h3>
+                <div class="experience-company">BC Housing (Provincial Government)</div>
+                <div class="experience-period">Feb 2023 - May 2023 · 4 mos</div>
+                <div class="experience-location">Burnaby, British Columbia, Canada · Remote</div>
+              </div>
+              <div class="experience-toggle">
+                <span class="toggle-icon">+</span>
+              </div>
+            </div>
+            <div class="experience-content">
+              <p>Led the modernization of BC Housing's legacy monolithic systems, upgrading from older Java versions to Java 18 and Spring Boot.</p>
+              <ul>
+                <li>Developed UI using Spring MVC framework, JSP, JSTL, HTML5, CSS, jQuery, AJAX and AngularJS</li>
+                <li>Developed RESTful APIs and integrated Apigee API Gateway, ensuring secure and scalable API management</li>
+                <li>Migrated monolithic applications to microservices-based architecture, improving maintainability and scalability</li>
+                <li>Implemented OAuth2 and role-based access control (RBAC) to secure internal and external API users</li>
+                <li>Designed and built CI/CD pipelines using Jenkins & GitHub Actions, automating build, test, and deployment cycles</li>
+                <li>Containerized applications using Docker and Kubernetes, optimizing cloud deployments on AWS</li>
+                <li>Upgraded and optimized database architecture, migrating from legacy relational databases to PostgreSQL</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-header" onclick="toggleExperience(this)">
+              <div class="experience-header-content">
+                <h3>Senior Full-stack Developer</h3>
+                <div class="experience-company">RBC Global Asset Management</div>
+                <div class="experience-period">Apr 2021 - Oct 2022 · 1 yr 7 mos</div>
+                <div class="experience-location">Vancouver, British Columbia, Canada</div>
+              </div>
+              <div class="experience-toggle">
+                <span class="toggle-icon">+</span>
+              </div>
+            </div>
+            <div class="experience-content">
+              <p>Developed an internal KYC (Know Your Customer) system to streamline identity verification and integrate real-time credit checks with TransUnion API.</p>
+              <ul>
+                <li>Used Java 1.8, Spring 2.0, Spring Security, MVC, JPA, Thymeleaf to develop Backend work</li>
+                <li>Built and optimized backend microservices using Spring Boot and Node.js, ensuring secure and scalable API integrations</li>
+                <li>Designed and developed RESTful APIs for TransUnion credit checks, integrating them with RBC's digital banking platform</li>
+                <li>Developed React.js-based front-end components, providing user-friendly interface for bank employees</li>
+                <li>Implemented OAuth2 and Spring Security, enabling secure authentication and access control for internal users</li>
+                <li>Deployed microservices on OpenShift Kubernetes, ensuring high availability, fault tolerance, and scalability</li>
+                <li>Enhanced KYC verification efficiency, reducing manual processing time by 60%</li>
+                <li>Built serverless APIs and background jobs with GCP Cloud Functions, reducing infrastructure overhead</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-header" onclick="toggleExperience(this)">
+              <div class="experience-header-content">
+                <h3>Senior Full Stack Developer</h3>
+                <div class="experience-company">Best Buy Canada</div>
+                <div class="experience-period">Oct 2020 - Feb 2021 · 5 mos</div>
+                <div class="experience-location">Burnaby, British Columbia, Canada</div>
+              </div>
+              <div class="experience-toggle">
+                <span class="toggle-icon">+</span>
+              </div>
+            </div>
+            <div class="experience-content">
+              <p>Worked on BestBuy website based on React JS, designing UI views with Flexbox and React Native dimension API.</p>
+              <ul>
+                <li>Experienced in Spring, Hibernate, JavaScript, HTML, CSS, AJAX, jQuery</li>
+                <li>Used MongoDB internal tools like Mongo Compass, Mongo Atlas Manager & Ops Manager</li>
+                <li>Overcame challenges like data migration from MySQL to MongoDB</li>
+                <li>Developed Rest API to processes the data from DB to another Rest Service</li>
+                <li>Used React Router for routing the redux app to connect redux and react to support routes</li>
+                <li>Worked with modules like MongoDB for database persistence using Node JS to interact with mongo db</li>
+                <li>Closely worked with Kafka Admin team to set up Kafka cluster setup on the QA and Prod environments</li>
+                <li>Working as Cloud Administrator on Microsoft Azure, involved in configuring virtual machines, storage accounts, resource groups</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-header" onclick="toggleExperience(this)">
+              <div class="experience-header-content">
+                <h3>Full Stack Engineer</h3>
+                <div class="experience-company">Mastercard</div>
+                <div class="experience-period">Nov 2019 - Aug 2020 · 10 mos</div>
+                <div class="experience-location">Vancouver, British Columbia, Canada</div>
+              </div>
+              <div class="experience-toggle">
+                <span class="toggle-icon">+</span>
+              </div>
+            </div>
+            <div class="experience-content">
+              <p>Worked on Phoenix application which helps the Master Card team to view information on existing offers, Discounts, Redemptions, Cashback that the customer has been setup.</p>
+              <ul>
+                <li>Involved in building highly interactive portable widgets using HTML5, DXP (Digital Experience Platform) Component CSS3, Angular 8 and AJAX libraries</li>
+                <li>Developed Single page application with Angular 8, DXP local component, HTML, CSS5 and Typescript</li>
+                <li>Used Node.js, Angular MVC Frameworks in the development of web applications</li>
+                <li>Created HTML pages from PDFs and used AngularJS to retrieve data from Rest Services</li>
+                <li>Expertise in developing data models using Hibernate Object relational mapping (ORM) framework</li>
+                <li>Created schemas, Stored Procedures using PGSQL database</li>
+                <li>Used Micro Services with Spring Boot services and combination of REST, Kafka message brokers</li>
+                <li>Setup and Implement Continuous Integration and Continuous Delivery (CI & CD) Process stack using AWS, GITHUB/GIT, Jenkins, and Chef</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-header" onclick="toggleExperience(this)">
+              <div class="experience-header-content">
+                <h3>Full Stack Engineer</h3>
+                <div class="experience-company">Canadian Western Bank</div>
+                <div class="experience-period">Sep 2018 - Nov 2019 · 1 yr 3 mos</div>
+                <div class="experience-location">Edmonton, Alberta, Canada</div>
+              </div>
+              <div class="experience-toggle">
+                <span class="toggle-icon">+</span>
+              </div>
+            </div>
+            <div class="experience-content">
+              <p>Worked on Web Application involved streamlining of Property and Casualty claims-processing system providing an all-digital workflow and the ability to track performance.</p>
+              <ul>
+                <li>Built the application based on new features of Java JDK 1.8 like annotations, collections, date/Time changes, Stream, and Lambda Expression</li>
+                <li>Implemented RESTful Web services to retrieve data from client side</li>
+                <li>Designed front-end presentation logic using JSP, CSS3, AngularJS, JavaScript and HTML5</li>
+                <li>Experience in Developing User Interface (UI) Rich Web Applications using Angular 2.0, Angular 4, Angular JS, Node JS, Bootstrap</li>
+                <li>Used Angular Promise, Angular Custom directives, custom services, Angular to REST to Spring calls</li>
+                <li>Experience with messaging systems like JMS, Kafka, Kafka event sourcing</li>
+                <li>For client-side view rendering services, used React JS and various predefined Redux libraries</li>
+                <li>Worked on developing Restful endpoints to Cache application specific data in in-memory data clusters like Redis</li>
+                <li>Designed and developed business components using Spring MVC, Spring Dependency Injection (Core), Spring AOP, EhCache Framework</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-header" onclick="toggleExperience(this)">
+              <div class="experience-header-content">
+                <h3>Java Developer</h3>
+                <div class="experience-company">Bright Insight</div>
+                <div class="experience-period">Jun 2017 - Aug 2018 · 1 yr 3 mos</div>
+                <div class="experience-location">Windsor, Ontario, Canada · On-site</div>
+              </div>
+              <div class="experience-toggle">
+                <span class="toggle-icon">+</span>
+              </div>
+            </div>
+            <div class="experience-content">
+              <p>Designed and implemented a lead discovery web application using Typescript, Angular JS, JavaScript, HTML, CSS, MVC, and Web API.</p>
+              <ul>
+                <li>Developed the BrightInsight public API, internal API, and other backend services</li>
+                <li>Highly proficient in collaborative API design, publishing, and testing tools like Postman, OpenAPI</li>
+                <li>Participated in the HL7 FHIR Canadian + global community and followed standards</li>
+                <li>Experienced with Java, Spring, Rest API, SQL, and Git</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Tech Stack</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h4>Languages</h4>
+            <p>Java · JavaScript · TypeScript · SQL · HTML · CSS</p>
+          </div>
+          <div class="skill-group">
+            <h4>Frontend</h4>
+            <p>React · Redux · Angular · Responsive UI · Accessibility</p>
+          </div>
+          <div class="skill-group">
+            <h4>Backend</h4>
+            <p>Spring Boot · RESTful APIs · Microservices · gRPC</p>
+          </div>
+          <div class="skill-group">
+            <h4>Infra & DevOps</h4>
+            <p>Docker · Kubernetes · Jenkins · CircleCI · GitHub Actions · AWS · GCP · Azure</p>
+          </div>
+          <div class="skill-group">
+            <h4>Data & Messaging</h4>
+            <p>PostgreSQL · MySQL · Redis · Kafka · Notification systems</p>
+          </div>
+          <div class="skill-group">
+            <h4>Other</h4>
+            <p>Observability · Security · Load testing · Scalable architecture</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Selected Projects</h2>
+
+        <div class="project-filter">
+          <button data-filter="all" class="active">All</button>
+          <button data-filter="frontend">Frontend</button>
+          <button data-filter="backend">Backend</button>
+          <button data-filter="infra">Infra</button>
+          <button data-filter="fullstack">Full Stack</button>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card" data-type="fullstack backend">
+            <div class="project-header">
+              <h3>Payments Microservices Platform</h3>
+              <div class="project-links">
+                <a href="#" class="project-link" target="_blank">Live Demo</a>
+                <a href="#" class="project-link" target="_blank">GitHub</a>
+              </div>
+            </div>
+            <p class="project-tech"><em>Java, Spring Boot, Kafka, Docker, Kubernetes, PostgreSQL, AWS</em></p>
+            <ul>
+              <li>Designed microservice architecture handling high throughput payment events via Kafka.</li>
+              <li>Implemented resiliency (circuit breakers, retries) and CI/CD pipelines via Jenkins and GitHub Actions.</li>
+              <li>Built real-time monitoring with Prometheus and Grafana dashboards.</li>
+            </ul>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" data-type="frontend">
+            <div class="project-header">
+              <h3>Enterprise Dashboard</h3>
+              <div class="project-links">
+                <a href="#" class="project-link" target="_blank">Live Demo</a>
+                <a href="#" class="project-link" target="_blank">GitHub</a>
+              </div>
+            </div>
+            <p class="project-tech"><em>React, TypeScript, Redux, REST APIs</em></p>
+            <ul>
+              <li>Real-time analytics dashboard with charts, role-based auth, and responsive design.</li>
+              <li>Worked on performance optimizations and component library for reuse across apps.</li>
+              <li>Implemented advanced filtering and data visualization features.</li>
+            </ul>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" data-type="infra">
+            <div class="project-header">
+              <h3>CI/CD & Kubernetes Platform</h3>
+              <div class="project-links">
+                <a href="#" class="project-link" target="_blank">Documentation</a>
+                <a href="#" class="project-link" target="_blank">GitHub</a>
+              </div>
+            </div>
+            <p class="project-tech"><em>Docker, Kubernetes, Helm, Jenkins, CircleCI, AWS EKS</em></p>
+            <ul>
+              <li>Containerized legacy apps, created Helm charts, and automated deployments with CircleCI and GitOps patterns.</li>
+              <li>Set up monitoring and alerting with Prometheus + Grafana.</li>
+              <li>Implemented blue-green deployments and auto-scaling policies.</li>
+            </ul>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card" data-type="backend">
+            <div class="project-header">
+              <h3>Notification Service</h3>
+              <div class="project-links">
+                <a href="#" class="project-link" target="_blank">API Docs</a>
+                <a href="#" class="project-link" target="_blank">GitHub</a>
+              </div>
+            </div>
+            <p class="project-tech"><em>Java, Spring Boot, Kafka, Redis, AWS SNS</em></p>
+            <ul>
+              <li>Built scalable notification service handling email, SMS, and push notifications.</li>
+              <li>Implemented event-driven architecture with Kafka for reliable message delivery.</li>
+              <li>Added rate limiting, retry mechanisms, and delivery tracking.</li>
+            </ul>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card" data-type="fullstack">
+            <div class="project-header">
+              <h3>E-commerce Platform</h3>
+              <div class="project-links">
+                <a href="#" class="project-link" target="_blank">Live Demo</a>
+                <a href="#" class="project-link" target="_blank">GitHub</a>
+              </div>
+            </div>
+            <p class="project-tech"><em>React, Spring Boot, PostgreSQL, Docker, AWS</em></p>
+            <ul>
+              <li>Full-stack e-commerce solution with user authentication, product catalog, and payment integration.</li>
+              <li>Implemented search functionality with Elasticsearch and recommendation engine.</li>
+              <li>Built admin dashboard for inventory and order management.</li>
+            </ul>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card" data-type="infra">
+            <div class="project-header">
+              <h3>Multi-Cloud Infrastructure</h3>
+              <div class="project-links">
+                <a href="#" class="project-link" target="_blank">Terraform</a>
+                <a href="#" class="project-link" target="_blank">Documentation</a>
+              </div>
+            </div>
+            <p class="project-tech"><em>Terraform, AWS, GCP, Azure, Kubernetes</em></p>
+            <ul>
+              <li>Designed and implemented multi-cloud infrastructure using Infrastructure as Code.</li>
+              <li>Set up cross-region failover and disaster recovery strategies.</li>
+              <li>Automated infrastructure provisioning and management workflows.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <p>Want to hire me or discuss a project? Send a message — I'll reply.</p>
+
+        <div class="contact-content">
+          <form id="contact-form" action="https://formsubmit.co/ramgirirakesh77@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <div class="form-grid">
+              <input type="text" name="name" placeholder="Your name" required>
+              <input type="email" name="email" placeholder="Your email" required>
+              <input type="text" name="subject" placeholder="Subject" required>
+              <textarea name="message" rows="6" placeholder="Tell me about the project..." required></textarea>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn">Send message</button>
+              <a class="btn ghost" href="mailto:ramgirirakesh77@gmail.com">Or email: ramgirirakesh77@gmail.com</a>
+            </div>
+          </form>
+
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>I'm always interested in new opportunities and exciting projects. Whether you need a full-stack developer, DevOps engineer, or technical consultant, I'd love to hear from you.</p>
+            
+            <div class="contact-details">
+              <p><strong>Email:</strong> <a href="mailto:ramgirirakesh77@gmail.com">ramgirirakesh77@gmail.com</a></p>
+              <p><strong>Location:</strong> Vancouver, BC, Canada</p>
+            </div>
+            
+            <div class="socials">
+              <a href="https://www.linkedin.com/in/rakesh-ramgiri-a4705a1aa/" target="_blank" class="social-link">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                LinkedIn
+              </a>
+              <a href="https://github.com/ramgirirakesh7" target="_blank" class="social-link">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="year"></span> Rakesh Ramgiri — Built with care · Available for freelance & contract work</small>
+    </div>
+  </footer>
+
+  <!-- Resume Request Modal -->
+  <div id="resume-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Request Resume</h3>
+        <button class="modal-close" onclick="closeResumeModal()">&times;</button>
+      </div>
+      <form id="resume-request-form" action="https://formsubmit.co/ramgirirakesh77@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Resume Request from Portfolio">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        
+        <div class="form-group">
+          <label for="client-name">Your Name *</label>
+          <input type="text" id="client-name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="client-email">Your Email *</label>
+          <input type="email" id="client-email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="client-description">Description (Optional)</label>
+          <textarea id="client-description" name="description" rows="4" placeholder="Tell me about your project or why you're interested in my resume..."></textarea>
+        </div>
+        
+        <div class="form-actions">
+          <button type="submit" class="btn">Send Request</button>
+          <button type="button" class="btn ghost" onclick="closeResumeModal()">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

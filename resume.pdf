@@ -1,0 +1,107 @@
+# RAKESH RAMGIRI - SENIOR FULL STACK DEVELOPER
+
+## CONTACT INFORMATION
+- **Email:** ramgirirakesh77@gmail.com
+- **Phone:** +1 (604) 365-3204
+- **Location:** Vancouver, BC, Canada
+- **LinkedIn:** https://www.linkedin.com/in/rakesh-ramgiri-a4705a1aa/
+- **GitHub:** https://github.com/yourusername
+- **Visa Status:** Canadian Citizen
+
+## PROFESSIONAL SUMMARY
+Senior Full Stack Developer with 7+ years of experience delivering cloud-native, event-driven applications. Expert in Java, Spring Boot, React, Angular, and cloud platforms (AWS/GCP/Azure). Proven track record of building scalable microservices, implementing CI/CD pipelines, and optimizing system performance.
+
+## TECHNICAL SKILLS
+
+### Languages & Frameworks
+- **Backend:** Java 17, Spring Boot 3.x, Spring Cloud, Python (Django, Flask, FastAPI), Node.js
+- **Frontend:** React, Angular, Next.js 14, TypeScript, JavaScript, HTML5, CSS3
+- **Databases:** PostgreSQL, MySQL, MongoDB, Cassandra, Redis, Oracle WebDB
+- **Messaging:** Apache Kafka, JMS, Pub/Sub
+- **Cloud & DevOps:** AWS, GCP, Azure, Docker, Kubernetes, OpenShift, Jenkins, CircleCI, GitHub Actions
+- **Other:** gRPC, RESTful APIs, Microservices, OAuth 2.0, JWT, RBAC, Elasticsearch
+
+## PROFESSIONAL EXPERIENCE
+
+### Senior Software Engineer
+**Ritchie Bros.** | Feb 2024 - Present | Burnaby, BC (Remote)
+- Contributed to cloud-native, event-driven Notification Service for real-time messaging
+- Developed microservices using Java 17, Spring Boot 3.x, and Spring Cloud
+- Implemented event-driven architecture with Apache Kafka for real-time processing
+- Built frontend applications using Next.js 14, TypeScript, and Contentful CMS
+- Established CI/CD pipelines using Jenkins and CircleCI with Helm and Vault
+- Migrated legacy Oracle WebDB systems to PostgreSQL
+- Achieved 90%+ code coverage with TDD practices
+
+### Fullstack Developer
+**Boeing Vancouver** | May 2023 - Feb 2024 | Richmond, BC (Hybrid)
+- Developed centralized notification service handling email notifications
+- Implemented event-driven architecture using Kafka for asynchronous processing
+- Built RESTful APIs using Spring Boot and Python FastAPI
+- Integrated with AWS and OpenShift for scalable deployments
+- Optimized Kafka event processing, reducing delivery time by 50%
+
+### Full-stack Developer
+**BC Housing (Provincial Government)** | Feb 2023 - May 2023 | Burnaby, BC (Remote)
+- Led modernization of legacy monolithic systems to Java 18 and Spring Boot
+- Developed RESTful APIs and integrated Apigee API Gateway
+- Migrated to microservices-based architecture
+- Implemented OAuth2 and RBAC for secure API access
+- Containerized applications using Docker and Kubernetes on AWS
+
+### Senior Full-stack Developer
+**RBC Global Asset Management** | Apr 2021 - Oct 2022 | Vancouver, BC
+- Developed internal KYC system for identity verification and TransUnion API integration
+- Built microservices using Spring Boot and Node.js
+- Designed RESTful APIs for credit checks integration
+- Developed React.js frontend components for bank employees
+- Deployed on OpenShift Kubernetes with high availability
+- Enhanced KYC verification efficiency by 60%
+
+### Senior Full Stack Developer
+**Best Buy Canada** | Oct 2020 - Feb 2021 | Burnaby, BC
+- Worked on BestBuy website using React JS and React Native
+- Experienced with Spring, Hibernate, MongoDB, MySQL migration
+- Developed REST APIs and worked with Kafka cluster setup
+- Cloud administration on Microsoft Azure
+
+### Full Stack Engineer
+**Mastercard** | Nov 2019 - Aug 2020 | Vancouver, BC
+- Developed Phoenix application for offers, discounts, and cashback management
+- Built interactive widgets using HTML5, Angular 8, and AJAX
+- Created single-page applications with Angular 8 and TypeScript
+- Used Spring Boot microservices with REST and Kafka
+- Implemented CI/CD using AWS, GitHub, Jenkins, and Chef
+
+### Full Stack Engineer
+**Canadian Western Bank** | Sep 2018 - Nov 2019 | Edmonton, AB
+- Developed Property and Casualty claims-processing system
+- Used Java JDK 1.8 features, Spring MVC, AngularJS, React JS
+- Implemented messaging systems with JMS and Kafka
+- Worked with Redis caching and Elasticsearch
+- Deployed on AWS using Docker, Kubernetes, and OpenShift
+
+### Java Developer
+**Bright Insight** | Jun 2017 - Aug 2018 | Windsor, ON
+- Designed lead discovery web application using TypeScript and Angular JS
+- Developed public and internal APIs with collaborative API design
+- Participated in HL7 FHIR Canadian community and standards
+- Experienced with Java, Spring, REST API, SQL, and Git
+
+## EDUCATION
+- **Bachelor's Degree in Computer Science** (or relevant field)
+- **Certifications:** AWS, Kubernetes, or other relevant certifications
+
+## PROJECTS & ACHIEVEMENTS
+- Migrated legacy systems to modern cloud-native architectures
+- Reduced notification delivery time by 50% through Kafka optimization
+- Enhanced KYC verification efficiency by 60%
+- Achieved 90%+ code coverage with TDD practices
+- Implemented multi-cloud infrastructure with disaster recovery
+
+## LANGUAGES
+- English (Fluent)
+- Additional languages if applicable
+
+---
+*This is a sample resume template. Please replace with your actual resume content.*
